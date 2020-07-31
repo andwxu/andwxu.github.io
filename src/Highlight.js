@@ -20,6 +20,8 @@ export default function Highlight() {
 
 const style = {
     height: '90px',
+    textAlign: 'center',
+    verticalAlign: 'middle',
 }
 
 const wrapper = {
