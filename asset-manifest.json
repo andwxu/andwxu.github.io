@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/andwxu.github.io/static/css/main.8212d038.chunk.css",
-    "main.js": "/andwxu.github.io/static/js/main.e6237467.chunk.js",
-    "main.js.map": "/andwxu.github.io/static/js/main.e6237467.chunk.js.map",
+    "main.js": "/andwxu.github.io/static/js/main.f70a03d8.chunk.js",
+    "main.js.map": "/andwxu.github.io/static/js/main.f70a03d8.chunk.js.map",
     "runtime-main.js": "/andwxu.github.io/static/js/runtime-main.1468a81a.js",
     "runtime-main.js.map": "/andwxu.github.io/static/js/runtime-main.1468a81a.js.map",
-    "static/js/2.b4419b3f.chunk.js": "/andwxu.github.io/static/js/2.b4419b3f.chunk.js",
-    "static/js/2.b4419b3f.chunk.js.map": "/andwxu.github.io/static/js/2.b4419b3f.chunk.js.map",
+    "static/js/2.c4e2feec.chunk.js": "/andwxu.github.io/static/js/2.c4e2feec.chunk.js",
+    "static/js/2.c4e2feec.chunk.js.map": "/andwxu.github.io/static/js/2.c4e2feec.chunk.js.map",
     "index.html": "/andwxu.github.io/index.html",
-    "precache-manifest.c6b07323df5ed6e255205b2f4fb03f64.js": "/andwxu.github.io/precache-manifest.c6b07323df5ed6e255205b2f4fb03f64.js",
+    "precache-manifest.9c59f849722119e4cf6d396a0c0d7aeb.js": "/andwxu.github.io/precache-manifest.9c59f849722119e4cf6d396a0c0d7aeb.js",
     "service-worker.js": "/andwxu.github.io/service-worker.js",
     "static/css/main.8212d038.chunk.css.map": "/andwxu.github.io/static/css/main.8212d038.chunk.css.map",
-    "static/js/2.b4419b3f.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.b4419b3f.chunk.js.LICENSE.txt"
+    "static/js/2.c4e2feec.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.c4e2feec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1468a81a.js",
-    "static/js/2.b4419b3f.chunk.js",
+    "static/js/2.c4e2feec.chunk.js",
     "static/css/main.8212d038.chunk.css",
-    "static/js/main.e6237467.chunk.js"
+    "static/js/main.f70a03d8.chunk.js"
   ]
 }
