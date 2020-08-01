@@ -9,41 +9,76 @@ html, body {
 .container {
   min-height: 100vh;
   background: #fafafa;
+  text-align: center;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 200px;
+  margin-top: 15px;
+  filter: brightness(120%);
+}
+
+.container img:hover {
+  filter: brightness(130%);
+}
+
+.profile {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.profile-box {
+  will-change: width, height, left, top;
+  position: absolute;
+}
+
+.introduction {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  background: transparent;
+  display: block;
+}
+
+.highlights img {
+  border-radius: 0;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  z-index: 150;
 }
 
 h1 {
-  font-size: 60px;
-  margin: 5px 5px 5px 5px;
+  font-size: 30px;
+  margin: auto;
   display: inline;
+  font-family: 'Open Sans';
+  cursor: default;
 }
 
 h2 {
-  font-size: 60px;
-  margin: 5px 5px 5px 5px;
+  font-size: 30px;
+  margin: auto;
   display: inline;
+  font-family: 'Open Sans';
+  cursor: default;
 }
 
 h3 {
-  position: absolute;
-  margin: 0;
-  font-size: 60px;
-  z-index: 5;
+  font-size: 30px;
+  margin: auto;
+  display: inline;
+  font-family: 'Open Sans';
+  z-index: 100;
+  cursor: default;
 }
 
 h4 {
-  position: absolute;
-  left: 321px;
-  display: inline;
-  font-size: 60px;
-  z-index: 100;
-}
-
-h5 {
-  position: absolute;
-  margin-top: 92px;
-  margin-left: 5px;
   display: block;
-  font-size: 20px;
+  font-size: 15px;
   z-index: 100;
+  margin: 0;
   font-family: 'Montserrat';
+  cursor: default;
 }
