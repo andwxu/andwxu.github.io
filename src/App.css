@@ -10,16 +10,17 @@ html, body {
   min-height: 100vh;
   background: #fafafa;
   text-align: center;
+  color: #262626;
 }
 
-.container img {
+.profile img {
   border-radius: 50%;
   width: 200px;
   margin-top: 15px;
   filter: brightness(120%);
 }
 
-.container img:hover {
+.profile img:hover {
   filter: brightness(130%);
 }
 

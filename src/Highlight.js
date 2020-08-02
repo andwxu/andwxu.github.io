@@ -38,23 +38,21 @@ export default function Highlight() {
         },
         to: {
             opacity: 1,
-            top: '5px',
+            top: '20px',
             right: '10px',
         },
         delay: 2900,
     });
 
     return (
-        <div className='highlights' style={wrapper}>
-            <div style={wrapper2}>
-                <animated.div style={props}>
-                    <div style={style}></div>
-                </animated.div>
-                <animated.div style={props2}>
-                    <div style={style2}></div>
-                </animated.div>
-                <animated.img style={buzzSpring} src={buzz}></animated.img>
-            </div>
+        <div className='highlights' style={wrapper2}>
+            <animated.div style={props}>
+                <div style={style}></div>
+            </animated.div>
+            <animated.div style={props2}>
+                <div style={style2}></div>
+            </animated.div>
+            <animated.img style={buzzSpring} src={buzz}></animated.img>
         </div>
     )
 }
@@ -68,10 +66,9 @@ const style2 = {
 }
 
 const wrapper = {
-    position: 'relative',
+    position: 'absolute',
     margin: '0 auto',
     textAlign: 'center',
-    width: '100%',
 }
 
 const wrapper2 = {

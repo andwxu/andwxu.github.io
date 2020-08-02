@@ -4,9 +4,7 @@ import './App.css';
 import Profile from './Profile';
 import Highlight from  './Highlight';
 import Hi from './Hi';
-import Bubble1 from './Bubble1';
-import Bubble2 from './Bubble2';
-import Bubble3 from './Bubble3';
+import Table from './Table';
 
 function App() {
   return (
@@ -14,6 +12,7 @@ function App() {
       <Profile />
       <Hi />
       <Highlight />
+      <Table />
     </div>
   )
 }
