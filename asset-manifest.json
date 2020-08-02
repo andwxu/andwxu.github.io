@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/andwxu.github.io/static/css/main.02a7102e.chunk.css",
-    "main.js": "/andwxu.github.io/static/js/main.c3de59ee.chunk.js",
-    "main.js.map": "/andwxu.github.io/static/js/main.c3de59ee.chunk.js.map",
+    "main.css": "/andwxu.github.io/static/css/main.fe824f42.chunk.css",
+    "main.js": "/andwxu.github.io/static/js/main.536fe9c6.chunk.js",
+    "main.js.map": "/andwxu.github.io/static/js/main.536fe9c6.chunk.js.map",
     "runtime-main.js": "/andwxu.github.io/static/js/runtime-main.1468a81a.js",
     "runtime-main.js.map": "/andwxu.github.io/static/js/runtime-main.1468a81a.js.map",
     "static/js/2.ece7c003.chunk.js": "/andwxu.github.io/static/js/2.ece7c003.chunk.js",
     "static/js/2.ece7c003.chunk.js.map": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.map",
     "index.html": "/andwxu.github.io/index.html",
-    "precache-manifest.4435b4c30acc098646c9c9e0b0bf96de.js": "/andwxu.github.io/precache-manifest.4435b4c30acc098646c9c9e0b0bf96de.js",
+    "precache-manifest.a8866f55512ed46f671c1bc65f53e69a.js": "/andwxu.github.io/precache-manifest.a8866f55512ed46f671c1bc65f53e69a.js",
     "service-worker.js": "/andwxu.github.io/service-worker.js",
-    "static/css/main.02a7102e.chunk.css.map": "/andwxu.github.io/static/css/main.02a7102e.chunk.css.map",
+    "static/css/main.fe824f42.chunk.css.map": "/andwxu.github.io/static/css/main.fe824f42.chunk.css.map",
     "static/js/2.ece7c003.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.LICENSE.txt",
     "static/media/andrew.jpg": "/andwxu.github.io/static/media/andrew.abe2976e.jpg",
     "static/media/boba.png": "/andwxu.github.io/static/media/boba.97cba475.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.1468a81a.js",
     "static/js/2.ece7c003.chunk.js",
-    "static/css/main.02a7102e.chunk.css",
-    "static/js/main.c3de59ee.chunk.js"
+    "static/css/main.fe824f42.chunk.css",
+    "static/js/main.536fe9c6.chunk.js"
   ]
 }
