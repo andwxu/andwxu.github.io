@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/andwxu.github.io/static/css/main.429c3632.chunk.css",
-    "main.js": "/andwxu.github.io/static/js/main.ae9e853f.chunk.js",
-    "main.js.map": "/andwxu.github.io/static/js/main.ae9e853f.chunk.js.map",
+    "main.css": "/andwxu.github.io/static/css/main.3d3a62d3.chunk.css",
+    "main.js": "/andwxu.github.io/static/js/main.16da8337.chunk.js",
+    "main.js.map": "/andwxu.github.io/static/js/main.16da8337.chunk.js.map",
     "runtime-main.js": "/andwxu.github.io/static/js/runtime-main.1468a81a.js",
     "runtime-main.js.map": "/andwxu.github.io/static/js/runtime-main.1468a81a.js.map",
-    "static/js/2.1a3b184e.chunk.js": "/andwxu.github.io/static/js/2.1a3b184e.chunk.js",
-    "static/js/2.1a3b184e.chunk.js.map": "/andwxu.github.io/static/js/2.1a3b184e.chunk.js.map",
+    "static/js/2.b502b536.chunk.js": "/andwxu.github.io/static/js/2.b502b536.chunk.js",
+    "static/js/2.b502b536.chunk.js.map": "/andwxu.github.io/static/js/2.b502b536.chunk.js.map",
     "index.html": "/andwxu.github.io/index.html",
-    "precache-manifest.dbd17248679f9700c5e5cf2c921603fa.js": "/andwxu.github.io/precache-manifest.dbd17248679f9700c5e5cf2c921603fa.js",
+    "precache-manifest.b89ef713de4cf2db659cbda743bdb8cc.js": "/andwxu.github.io/precache-manifest.b89ef713de4cf2db659cbda743bdb8cc.js",
     "service-worker.js": "/andwxu.github.io/service-worker.js",
-    "static/css/main.429c3632.chunk.css.map": "/andwxu.github.io/static/css/main.429c3632.chunk.css.map",
-    "static/js/2.1a3b184e.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.1a3b184e.chunk.js.LICENSE.txt",
+    "static/css/main.3d3a62d3.chunk.css.map": "/andwxu.github.io/static/css/main.3d3a62d3.chunk.css.map",
+    "static/js/2.b502b536.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.b502b536.chunk.js.LICENSE.txt",
     "static/media/andrew.jpg": "/andwxu.github.io/static/media/andrew.abe2976e.jpg",
-    "static/media/buzz.png": "/andwxu.github.io/static/media/buzz.2e265400.png"
+    "static/media/buzz.png": "/andwxu.github.io/static/media/buzz.2e265400.png",
+    "static/media/github.4a53de69.svg": "/andwxu.github.io/static/media/github.4a53de69.svg",
+    "static/media/linkedin.609819d7.svg": "/andwxu.github.io/static/media/linkedin.609819d7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1468a81a.js",
-    "static/js/2.1a3b184e.chunk.js",
-    "static/css/main.429c3632.chunk.css",
-    "static/js/main.ae9e853f.chunk.js"
+    "static/js/2.b502b536.chunk.js",
+    "static/css/main.3d3a62d3.chunk.css",
+    "static/js/main.16da8337.chunk.js"
   ]
 }
