@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71346d43396d079a8e3eb168e0ca006b",
+    "revision": "8fd71632e69822b85eecd504594586c8",
     "url": "/andwxu.github.io/index.html"
   },
   {
-    "revision": "2a97ff80d1be89092f9a",
-    "url": "/andwxu.github.io/static/css/main.b6684fdc.chunk.css"
+    "revision": "4e662b7472a71c86b7fd",
+    "url": "/andwxu.github.io/static/css/main.02a7102e.chunk.css"
   },
   {
-    "revision": "56a922c3676d14ab7b5c",
-    "url": "/andwxu.github.io/static/js/2.b502b536.chunk.js"
+    "revision": "7facf376e6c42a3ffbcd",
+    "url": "/andwxu.github.io/static/js/2.ece7c003.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andwxu.github.io/static/js/2.b502b536.chunk.js.LICENSE.txt"
+    "url": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a97ff80d1be89092f9a",
-    "url": "/andwxu.github.io/static/js/main.064ac9fa.chunk.js"
+    "revision": "4e662b7472a71c86b7fd",
+    "url": "/andwxu.github.io/static/js/main.c3de59ee.chunk.js"
   },
   {
     "revision": "1113b5649de53df7c1b5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "abe2976edc083597d231bfb9d847231f",
     "url": "/andwxu.github.io/static/media/andrew.abe2976e.jpg"
+  },
+  {
+    "revision": "97cba4753abed01a9f18872b44961df0",
+    "url": "/andwxu.github.io/static/media/boba.97cba475.png"
   },
   {
     "revision": "2e265400f0ac4d8a9d4f9a108a3dfa01",
@@ -38,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "609819d7f073f16cb2deff1c94fd10d2",
     "url": "/andwxu.github.io/static/media/linkedin.609819d7.svg"
+  },
+  {
+    "revision": "a5f141f9a80d8acb045dcb7c7ecdece3",
+    "url": "/andwxu.github.io/static/media/recipe.a5f141f9.png"
   }
 ]);
