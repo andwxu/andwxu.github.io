@@ -14,7 +14,7 @@ export default function Highlight() {
             zIndex: '50',
         },
         to: { width: '155px' },
-        delay: 1500,
+        delay: 2400,
     });
 
     const props2 = useSpring({
@@ -27,7 +27,7 @@ export default function Highlight() {
             zIndex: '50',
         },
         to: { width: '100px' },
-        delay: 2500,
+        delay: 2800,
     });
 
     const buzzSpring = useSpring({
@@ -41,12 +41,12 @@ export default function Highlight() {
             top: '20px',
             right: '10px',
         },
-        delay: 2900,
+        delay: 3100,
     });
 
     return (
         <div className='highlights' style={wrapper2}>
-            <animated.div style={props}>
+            <animated.div className='blueHighlight' style={props}>
                 <div style={style}></div>
             </animated.div>
             <animated.div style={props2}>

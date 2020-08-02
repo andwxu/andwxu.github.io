@@ -8,7 +8,7 @@ export default function Hi() {
             opacity: 0,
             position: 'relative',
         },
-        delay: 300,
+        delay: 1300,
     });
 
     const props2 = useSpring({
@@ -17,7 +17,7 @@ export default function Hi() {
             opacity: 0,
             position: 'relative',
         },
-        delay: 800,
+        delay: 2000,
     });
 
     const props3 = useSpring({
@@ -27,7 +27,7 @@ export default function Hi() {
             zIndex: '100',
             position: 'relative',
         },
-        delay: 1200,
+        delay: 2200,
     });
 
     const props4 = useSpring({
@@ -37,7 +37,7 @@ export default function Hi() {
             zIndex: '100',
             position: 'relative',
         },
-        delay: 2000,
+        delay: 2400,
     });
 
     return (
