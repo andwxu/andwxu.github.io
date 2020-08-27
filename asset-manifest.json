@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andwxu.github.io/static/css/main.5056f897.chunk.css",
+    "main.css": "/andwxu.github.io/static/css/main.dbaea3a2.chunk.css",
     "main.js": "/andwxu.github.io/static/js/main.c3f3383c.chunk.js",
     "main.js.map": "/andwxu.github.io/static/js/main.c3f3383c.chunk.js.map",
     "runtime-main.js": "/andwxu.github.io/static/js/runtime-main.1468a81a.js",
@@ -8,9 +8,9 @@
     "static/js/2.ece7c003.chunk.js": "/andwxu.github.io/static/js/2.ece7c003.chunk.js",
     "static/js/2.ece7c003.chunk.js.map": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.map",
     "index.html": "/andwxu.github.io/index.html",
-    "precache-manifest.e5859a015cde8404a2254e8d8966e7fa.js": "/andwxu.github.io/precache-manifest.e5859a015cde8404a2254e8d8966e7fa.js",
+    "precache-manifest.fe31b2e02fa82f4759bb271ad0c72d14.js": "/andwxu.github.io/precache-manifest.fe31b2e02fa82f4759bb271ad0c72d14.js",
     "service-worker.js": "/andwxu.github.io/service-worker.js",
-    "static/css/main.5056f897.chunk.css.map": "/andwxu.github.io/static/css/main.5056f897.chunk.css.map",
+    "static/css/main.dbaea3a2.chunk.css.map": "/andwxu.github.io/static/css/main.dbaea3a2.chunk.css.map",
     "static/js/2.ece7c003.chunk.js.LICENSE.txt": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.LICENSE.txt",
     "static/media/andrew.jpg": "/andwxu.github.io/static/media/andrew.abe2976e.jpg",
     "static/media/boba.png": "/andwxu.github.io/static/media/boba.97cba475.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.1468a81a.js",
     "static/js/2.ece7c003.chunk.js",
-    "static/css/main.5056f897.chunk.css",
+    "static/css/main.dbaea3a2.chunk.css",
     "static/js/main.c3f3383c.chunk.js"
   ]
 }
