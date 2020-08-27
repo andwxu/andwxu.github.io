@@ -8,7 +8,7 @@ html, body {
 
 .container {
   min-height: 100vh;
-  background: #262626;
+  background: #fafafa;
   text-align: center;
   color: #262626;
 }
@@ -82,4 +82,21 @@ h4 {
   margin: 0;
   font-family: 'Montserrat';
   cursor: default;
+}
+
+h5 {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 5px 0;
+  max-width: 400px;
+  z-Index: 50;
 }

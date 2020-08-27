@@ -3,28 +3,10 @@ import andrew from './andrew.jpg'
 import { useSpring, animated } from 'react-spring';
 
 export default function Profile() {
-  const onOpen = useSpring({
-    config: { friction: 40 },
-    from: {
-      top: '0%', 
-      left: '0%', 
-      width: '0%', 
-      height: '0%',
-      background: '#262626',
-      position: 'absolute',
-    },
-    to: {
-      width: '100%',
-      height: '100%',
-      background: '#fafafa',
-    },
-    delay: 500,
-  });
-
   const props = useSpring({
       opacity: 1,
       from: { opacity: 0 },
-      delay: 900,
+      delay: 300,
   });
 
   const propsDiv = useSpring({
@@ -85,7 +67,6 @@ export default function Profile() {
 
   return (
       <div className='profile'>
-        <animated.div style={onOpen} />
         <animated.div className='profile-box' style={propsDiv} />
         <animated.div className='profile-box' style={propsDiv2} />
         <animated.div className='profile-box' style={propsDiv3} />

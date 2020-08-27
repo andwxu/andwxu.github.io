@@ -2,8 +2,6 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import buzz from './buzz.png';
 
-let loaded = false;
-
 export default function Highlight() {
     const props = useSpring({
         from: { 

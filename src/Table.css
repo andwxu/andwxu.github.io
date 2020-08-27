@@ -3,6 +3,7 @@ table {
     top: -30px;
     margin: 0 auto;
     table-layout: fixed;
+    font-family: 'Open Sans';
 }
 
 td {
@@ -15,4 +16,35 @@ a svg {
 
 a svg:hover > path {
     fill: #6a2c70;
+}
+
+.skills {
+    margin: 0 auto;
+}
+
+.skills td {
+    padding: 15px 5px 5px 5px;
+    max-width: 100px;
+}
+
+.row2 td{
+    padding: 0 5px 15px 5px;
+    top: -30px;
+}
+
+.projects img {
+    max-width: 100px;
+    border-radius: 15px;
+    margin: 6px 0;
+}
+
+.projects img:hover {
+    filter: brightness(110%);
+}
+
+.projects td {
+    max-width: 300px;
+    padding: 0 8px;
+    font-size: 13px;
+    text-align: left;
 }
