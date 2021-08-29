@@ -177,7 +177,7 @@ export default function Hi() {
                 <tbody>
                 <animated.tr style={tr1}>
                     <td>
-                    <a href='https://github.com/andwxu/slackbot'><img src={boba} /></a>
+                    <a href='https://github.com/andwxu/slackbot'><img src={boba} alt='bobabot'/></a>
                     </td>
                     <td>
                         Bobabot is a slack app designed as a replacement for Donut bot. It pairs
@@ -188,7 +188,7 @@ export default function Hi() {
                 </animated.tr>
                 <animated.tr style={tr2}>
                     <td>
-                        <a href='https://github.com/andwxu/projectrecipe'><img src={recipe} /></a>
+                        <a href='https://github.com/andwxu/projectrecipe'><img src={recipe} alt='recipeapp'/></a>
                     </td>
                     <td>
                         Project Recipe is an ongoing project to categorize and display recipes
