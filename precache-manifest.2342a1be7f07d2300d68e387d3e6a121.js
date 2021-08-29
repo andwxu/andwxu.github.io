@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cc5d712658f44df959b5bd15d9ebcb0",
+    "revision": "035706b52c4d6945744c38b2ba9e961a",
     "url": "/andwxu.github.io/index.html"
   },
   {
-    "revision": "e5527b1ccb9b3a0bd777",
+    "revision": "63d8badb4a5b1005ee8c",
     "url": "/andwxu.github.io/static/css/main.dbaea3a2.chunk.css"
   },
   {
-    "revision": "7facf376e6c42a3ffbcd",
-    "url": "/andwxu.github.io/static/js/2.ece7c003.chunk.js"
+    "revision": "2b216e34f90cfd52cd6d",
+    "url": "/andwxu.github.io/static/js/2.9cbc58d7.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andwxu.github.io/static/js/2.ece7c003.chunk.js.LICENSE.txt"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/andwxu.github.io/static/js/2.9cbc58d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5527b1ccb9b3a0bd777",
-    "url": "/andwxu.github.io/static/js/main.c3f3383c.chunk.js"
+    "revision": "63d8badb4a5b1005ee8c",
+    "url": "/andwxu.github.io/static/js/main.f094c8d2.chunk.js"
   },
   {
     "revision": "1113b5649de53df7c1b5",
