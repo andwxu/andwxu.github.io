@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/andwxu/andwxu.github.io/static/css/main.dbaea3a2.chunk.css",
-    "main.js": "/andwxu/andwxu.github.io/static/js/main.04f4bc7d.chunk.js",
-    "main.js.map": "/andwxu/andwxu.github.io/static/js/main.04f4bc7d.chunk.js.map",
-    "runtime-main.js": "/andwxu/andwxu.github.io/static/js/runtime-main.9a4cd49a.js",
-    "runtime-main.js.map": "/andwxu/andwxu.github.io/static/js/runtime-main.9a4cd49a.js.map",
-    "static/js/2.9cbc58d7.chunk.js": "/andwxu/andwxu.github.io/static/js/2.9cbc58d7.chunk.js",
-    "static/js/2.9cbc58d7.chunk.js.map": "/andwxu/andwxu.github.io/static/js/2.9cbc58d7.chunk.js.map",
-    "index.html": "/andwxu/andwxu.github.io/index.html",
-    "precache-manifest.c528a6d6894b0f3d5ef19287d0d02069.js": "/andwxu/andwxu.github.io/precache-manifest.c528a6d6894b0f3d5ef19287d0d02069.js",
-    "service-worker.js": "/andwxu/andwxu.github.io/service-worker.js",
-    "static/css/main.dbaea3a2.chunk.css.map": "/andwxu/andwxu.github.io/static/css/main.dbaea3a2.chunk.css.map",
-    "static/js/2.9cbc58d7.chunk.js.LICENSE.txt": "/andwxu/andwxu.github.io/static/js/2.9cbc58d7.chunk.js.LICENSE.txt",
-    "static/media/andrew.jpg": "/andwxu/andwxu.github.io/static/media/andrew.abe2976e.jpg",
-    "static/media/boba.png": "/andwxu/andwxu.github.io/static/media/boba.97cba475.png",
-    "static/media/buzz.png": "/andwxu/andwxu.github.io/static/media/buzz.2e265400.png",
-    "static/media/github.4a53de69.svg": "/andwxu/andwxu.github.io/static/media/github.4a53de69.svg",
-    "static/media/linkedin.609819d7.svg": "/andwxu/andwxu.github.io/static/media/linkedin.609819d7.svg",
-    "static/media/recipe.png": "/andwxu/andwxu.github.io/static/media/recipe.a5f141f9.png"
+    "main.css": "/static/css/main.dbaea3a2.chunk.css",
+    "main.js": "/static/js/main.db61c6d1.chunk.js",
+    "main.js.map": "/static/js/main.db61c6d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bbf3189.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bbf3189.js.map",
+    "static/js/2.9cbc58d7.chunk.js": "/static/js/2.9cbc58d7.chunk.js",
+    "static/js/2.9cbc58d7.chunk.js.map": "/static/js/2.9cbc58d7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6bf75fda32d036d16d50a48757ec9dd6.js": "/precache-manifest.6bf75fda32d036d16d50a48757ec9dd6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dbaea3a2.chunk.css.map": "/static/css/main.dbaea3a2.chunk.css.map",
+    "static/js/2.9cbc58d7.chunk.js.LICENSE.txt": "/static/js/2.9cbc58d7.chunk.js.LICENSE.txt",
+    "static/media/andrew.jpg": "/static/media/andrew.abe2976e.jpg",
+    "static/media/boba.png": "/static/media/boba.97cba475.png",
+    "static/media/buzz.png": "/static/media/buzz.2e265400.png",
+    "static/media/github.4a53de69.svg": "/static/media/github.4a53de69.svg",
+    "static/media/linkedin.609819d7.svg": "/static/media/linkedin.609819d7.svg",
+    "static/media/recipe.png": "/static/media/recipe.a5f141f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a4cd49a.js",
+    "static/js/runtime-main.3bbf3189.js",
     "static/js/2.9cbc58d7.chunk.js",
     "static/css/main.dbaea3a2.chunk.css",
-    "static/js/main.04f4bc7d.chunk.js"
+    "static/js/main.db61c6d1.chunk.js"
   ]
 }
