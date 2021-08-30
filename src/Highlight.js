@@ -7,7 +7,7 @@ export default function Highlight() {
         from: { 
             width: '0px', 
             background: 'lightblue', 
-            marginLeft: '120px',
+            marginLeft: '124px',
             position: 'relative',
             zIndex: '50',
         },

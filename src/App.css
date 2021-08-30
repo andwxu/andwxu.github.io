@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
 html, body {
   min-height: 100vh;
 }
@@ -54,7 +56,7 @@ h1 {
   font-size: 30px;
   margin: auto;
   display: inline;
-  font-family: 'Open Sans';
+  font-family: 'Atkinson Hyperlegible';
   cursor: default;
 }
 
@@ -62,7 +64,7 @@ h2 {
   font-size: 30px;
   margin: auto;
   display: inline;
-  font-family: 'Open Sans';
+  font-family: 'Atkinson Hyperlegible';
   cursor: default;
 }
 
@@ -70,7 +72,7 @@ h3 {
   font-size: 30px;
   margin: auto;
   display: inline;
-  font-family: 'Open Sans';
+  font-family: 'Atkinson Hyperlegible';
   z-index: 100;
   cursor: default;
 }
@@ -88,8 +90,17 @@ h5 {
   display: block;
   position: relative;
   margin: 0 auto;
-  font-family: 'Open Sans';
+  font-family: 'Atkinson Hyperlegible';
   font-size: 20px;
+}
+
+h6 {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Atkinson Hyperlegible';
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 p {
@@ -99,4 +110,96 @@ p {
   padding: 7px 0;
   max-width: 400px;
   z-Index: 50;
+}
+
+@use postcss-simple-vars;
+@use postcss-nested;
+
+a {
+  cursor: pointer;
+}
+
+.link-1 {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 2px;
+  transition: color ease 0.3s;
+}
+
+.link-1::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 5%;
+  left: 0;
+  bottom: 0;
+  background-color: #ffb6b6;
+  transition: all ease 0.3s;
+}
+
+.link-1:hover {
+  color: white;
+}
+
+.link-1:hover::after {
+  height: 100%;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip-trigger {
+  display: inline-block;
+}
+
+.tooltip-bubble {
+  min-width: 220px;
+  max-width: 400px;
+  position: absolute;
+  z-index: 10;
+}
+
+.tooltip-bubble::after {
+  content: '';
+    position: absolute;
+}
+
+.tooltip-top {
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 9px;
+  transform: translateX(-50%);
+}
+
+.tooltip-top::after {
+  border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid rgba(0,0,0,.7);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+span:hover {
+  transition: all 0.3s ease;
+  background: lightblue;
+}
+
+span {
+  margin-bottom:-1px;
+  border-bottom: 1px solid #67C8EA;
+}
+
+.tooltip-message {
+  background: rgba(0,0,0,1);
+  border-radius: 15px;
+  color: #fff;
+  font-size: .75rem;
+  line-height: 1.4;
+  padding: .75em;
+  text-align: center;
 }

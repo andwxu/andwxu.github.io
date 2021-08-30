@@ -18,22 +18,45 @@ a svg:hover > path {
     fill: #6a2c70;
 }
 
+.employment img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 15px;
+    margin: 6px 0;
+}
+
+.employment img:hover {
+    filter: brightness(110%);
+}
+
+.employment td {
+    max-width: 300px;
+    padding: 0 8px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.employment tr {
+    padding-top: 10px;
+}
+
 .skills {
     margin: 0 auto;
 }
 
 .skills td {
-    padding: 15px 5px 5px 5px;
+    padding: 15px 5px 5px 0px;
     max-width: 100px;
 }
 
 .row2 td{
-    padding: 0 5px 15px 5px;
+    padding: 0 5px 15px 0px;
     top: -30px;
 }
 
 .projects img {
     max-width: 100px;
+    max-height: 100px;
     border-radius: 15px;
     margin: 6px 0;
 }
@@ -47,4 +70,8 @@ a svg:hover > path {
     padding: 0 8px;
     font-size: 13px;
     text-align: left;
+}
+
+.about {
+    margin-bottom: 5px;
 }

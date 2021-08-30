@@ -42,8 +42,8 @@ export default function Hi() {
 
     return (
         <div className='introduction'>
-            <animated.h1 style={props}>Hi.</animated.h1>
-            <animated.h2 style={props2}> I'm </animated.h2>
+            <animated.h1 style={props}>Hi. </animated.h1>
+            <animated.h2 style={props2}>I'm </animated.h2>
             <animated.h3 style={props3}>Andrew Xu</animated.h3>
             <animated.h4 style={props4}>CS Student at Georgia Tech</animated.h4>
         </div>
