@@ -18,6 +18,10 @@ a svg:hover > path {
     fill: #6a2c70;
 }
 
+.employment {
+    border-spacing: 0 10px;
+}
+
 .employment img {
     max-width: 100px;
     max-height: 100px;
@@ -37,7 +41,7 @@ a svg:hover > path {
 }
 
 .employment tr {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .skills {

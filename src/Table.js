@@ -1,11 +1,13 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import './Table.css';
-import { ReactComponent as Github } from './github.svg';
-import { ReactComponent as Linked } from './linkedin.svg';
-import boba from './boba.png';
-import junction from './junction.png';
-import ncr from './ncr.png';
+import { ReactComponent as Github } from './images/github.svg';
+import { ReactComponent as Linked } from './images/linkedin.svg';
+import boba from './images/boba.png';
+import junction from './images/junction.png';
+import ncr from './images/ncr.png';
+import amazon from './images/amazon.jpg';
+import rehapp from './images/rehapp.png';
 import Tooltip from './Tooltip';
 
 export default function Hi() {
@@ -87,6 +89,18 @@ export default function Hi() {
         delay: 4300,
     });
 
+    const employmenttr2 = useSpring({
+        to: {
+            opacity: 1,
+            top: '0px',
+        },
+        from: { 
+            opacity: 0,
+            top: '15px',
+        },
+        delay: 4500,
+    });
+
     const skill = useSpring({
         to: {
             opacity: 1,
@@ -147,6 +161,18 @@ export default function Hi() {
         delay: 5800,
     });
 
+    const tr3 = useSpring({
+        to: {
+            opacity: 1,
+            top: '0px',
+        },
+        from: { 
+            opacity: 0,
+            top: '15px',
+        },
+        delay: 6000,
+    });
+
     //all images are #262626
     return (
         <div>
@@ -175,13 +201,25 @@ export default function Hi() {
                 <tbody>
                 <animated.tr style={employmenttr1}>
                     <td>
+                    <a href='https://www.amazon.jobs/en/teams/aft' target='_blank'><img src={amazon} alt='Amazon'/></a>
+                    </td>
+                    <td>
+                        At Amazon, I worked to implement an end-to-end validation application to verify if configuration settings were in sync
+                        for every fulfillment center. The application was built from scratch and ran daily, cutting a ticket if issues were found, sending 
+                        weekly email reports to the team, and sending metrics to a metrics portal. 
+                    </td>
+                </animated.tr>
+                <animated.tr style={employmenttr2}>
+                    <td>
                     <a href='https://www.ncr.com/restaurants/mobile-online-ordering' target='_blank'><img src={ncr} alt='NCR'/></a>
                     </td>
                     <td>
-                        I worked at NCR during the 2021 summer as an intern on the Digital Ordering team. I worked with a team
+                        I worked at NCR during the 2021 Summer and Fall as an intern on the Digital Ordering team. I worked with a team
                         to add global metric tracking to the Aloha Online Ordering white label app, utilizing Microsoft
-                        Application Insights to capture logs and build analytics dashboards.
+                        Application Insights to capture logs and build analytics dashboards. In the Fall, I picked up regular tickets and worked
+                        alongside the team to implement features to the digital ordering website.
                     </td>
+                    
                 </animated.tr>
                 </tbody>
             </table>
@@ -202,13 +240,13 @@ export default function Hi() {
                 </tr>
                 <tr className='row2'>
                     <animated.td style={props2}>
-                        AppInsights
+                        DynamoDB
                     </animated.td>
                     <animated.td style={props2}>
-                        Node.js
+                        S3
                     </animated.td>
                     <animated.td style={props2}>
-                        Express
+                        EC2
                     </animated.td>
                 </tr>
                 </tbody>
@@ -219,6 +257,17 @@ export default function Hi() {
                 <tbody>
                 <animated.tr style={tr1}>
                     <td>
+                    <a href='https://github.com/jjacobs44/Junior-Design-1324' target='_blank'><img src={rehapp} alt='rehapp'/></a>
+                    </td>
+                    <td>
+                        Rehapp is a Android/iOS mobile application built in Flutter that is designed to 
+                        help stroke survivors and therapists connect for the rehabilitation process. Therapists can assign 
+                        exercises, and patients can complete them, providing feedback to the therapist immediately and without the use of 
+                        paper entries.
+                    </td>
+                </animated.tr>
+                <animated.tr style={tr2}>
+                    <td>
                     <a href='https://github.com/andwxu/slackbot' target='_blank'><img src={boba} alt='bobabot'/></a>
                     </td>
                     <td>
@@ -228,7 +277,7 @@ export default function Hi() {
                         API as a backend to keep track of members.
                     </td>
                 </animated.tr>
-                <animated.tr style={tr2}>
+                <animated.tr style={tr3}>
                     <td>
                         <a href='https://github.com/andwxu/hackgt' target='_blank'><img src={junction} alt='junction'/></a>
                     </td>

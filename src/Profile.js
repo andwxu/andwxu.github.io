@@ -1,5 +1,5 @@
 import React from 'react'
-import andrew from './andrew.jpg'
+import andrew from './images/andrew.jpg'
 import { useSpring, animated } from 'react-spring';
 
 export default function Profile() {
